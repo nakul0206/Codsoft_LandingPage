@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #ffffff;
+
+}
+
+h2, h3 {
+    color: #002147; /* Dark Blue */
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3; /* Medium Blue */
+}
+
+a:hover {
+    color: #003366; /* Darker Blue */
+}
+
+.cta-button {
+    background-color: #0056b3; /* Medium Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #003366; /* Darker Blue */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('bg.avif') no-repeat center center/cover; /* Replace 'luxury-car.jpg' with your background image path */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 33, 71, 0.7); /* Dark Blue Overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f0f8ff; /* Very Light Blue */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Featured Cars Section */
+.featured-cars {
+    background-color: #ffffff; /* White */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-cars .car {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.featured-cars img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #e6f2ff; /* Light Blue */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.how-it-works .step {
+    display: inline-block;
+    width: 22%;
+    margin: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #f0f8ff; /* Very Light Blue */
+    padding: 40px 20px;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    margin: 10px 0;
+}
+
+/* Special Offers Section */
+.special-offers {
+    background-color: #ffffff; /* White */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Client Testimonials Section */
+.client-testimonials {
+    background-color: #e6f2ff; /* Light Blue */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.client-testimonials .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+/* Booking Form Section */
+.booking-form {
+    background-color: #f0f8ff; /* Very Light Blue */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.booking-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label {
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.booking-form input, .booking-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3; /* Medium Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contact-info, footer .social-media {
+    margin: 10px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
